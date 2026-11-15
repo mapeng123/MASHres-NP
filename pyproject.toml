@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mashres-np"
+version = "0.1.0"
+description = "MASH reversal screening of natural products: structure-to-pathway ML coupled with a MASH disease vector"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Peng Ma" }]
+dependencies = [
+    "rdkit>=2024.03",
+    "scikit-learn>=1.9",
+    "pandas>=2.0",
+    "numpy>=1.24",
+]
+
+[project.scripts]
+mashres-np = "mashres_np.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["mashres_np*"]
+
+[tool.setuptools.package-data]
+mashres_np = ["assets/*"]

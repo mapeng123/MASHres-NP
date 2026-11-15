@@ -1,0 +1,6 @@
+name,smiles
+oxypaeoniflorin,C[C@@]12C[C@@]3(O)O[C@@H](O1)[C@]1(COC(=O)C4=CC=C(O)C=C4)[C@H]3CC12O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O
+paeoniflorin,C[C@@]12C[C@@]3(O)O[C@@H](O1)[C@]1(COC(=O)C4=CC=CC=C4)[C@H]3C[C@@]12O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O
+albiflorin,C[C@]12C[C@@H](O)[C@@H]3C[C@@]1(O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)[C@@]3(COC(=O)C1=CC=CC=C1)C(=O)O2
+baicalin,C1=CC=C(C=C1)C2=CC(=O)C3=C(C(=C(C=C3O2)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)C(=O)O)O)O)O)O)O
+aspirin,CC(=O)OC1=CC=CC=C1C(=O)O
